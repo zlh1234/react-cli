@@ -1,6 +1,7 @@
 const path = require('path');
 const htmlPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const modifyVars = require('./modifyVars');
 module.exports = {
 	entry: ['babel-polyfill', path.resolve(__dirname, '../src/index.js')],
 	output: {
@@ -80,7 +81,7 @@ module.exports = {
 					{
 						loader: 'less-loader',
 						options: {
-							modifyVars: { '@fontColor': '#EE0707' }
+							modifyVars: modifyVars
 						}
 					}
 				]
