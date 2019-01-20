@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const path = require('path');
 const htmlPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -141,7 +142,8 @@ module.exports = {
 			'@components': path.resolve(__dirname, '../src/components'),
 			'@pages': path.resolve(__dirname, '../src/pages'),
 			'@redux': path.resolve(__dirname, '../src/redux'),
-			'@static': path.resolve(__dirname, '../src/static')
+			'@static': path.resolve(__dirname, '../src/static'),
+			'@util': path.resolve(__dirname, '../src/util')
 		}
 	}
 };
