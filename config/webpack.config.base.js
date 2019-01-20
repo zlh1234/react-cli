@@ -143,7 +143,8 @@ module.exports = {
 			'@pages': path.resolve(__dirname, '../src/pages'),
 			'@redux': path.resolve(__dirname, '../src/redux'),
 			'@static': path.resolve(__dirname, '../src/static'),
-			'@util': path.resolve(__dirname, '../src/util')
+			'@util': path.resolve(__dirname, '../src/util'),
+			'@api': path.resolve(__dirname, '../src/api')
 		}
 	}
 };
