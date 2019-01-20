@@ -5,7 +5,7 @@ const cleanPlugin = require('clean-webpack-plugin');
 const merge = require('webpack-merge');
 const baseWebpackConfig = require('./webpack.config.base.js');
 
-module.exports = merge( baseWebpackConfig,
+module.exports = merge(baseWebpackConfig,
     {
         plugins: [
             new cleanPlugin(['dist'])
