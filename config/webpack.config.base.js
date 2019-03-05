@@ -144,7 +144,9 @@ module.exports = {
 			'@redux': path.resolve(__dirname, '../src/redux'),
 			'@static': path.resolve(__dirname, '../src/static'),
 			'@util': path.resolve(__dirname, '../src/util'),
-			'@api': path.resolve(__dirname, '../src/api')
+			'@api': path.resolve(__dirname, '../src/api'),
+			'@constant': path.resolve(__dirname, '../src/constant'),
+			'@enum': path.resolve(__dirname, '../src/enum')
 		}
 	}
 };
